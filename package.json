@@ -1,0 +1,11 @@
+{
+  "name": "kitchen-kernel",
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
